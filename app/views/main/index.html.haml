@@ -1,2 +1,6 @@
 %h1 Main#index
 %p Find me in app/views/main/index.html.haml
+%h2 Stack
+%p
+  - @_stack_info.each do |line|
+    %div=line
