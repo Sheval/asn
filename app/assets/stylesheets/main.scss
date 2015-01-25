@@ -1,3 +1,29 @@
 // Place all the styles related to the Main controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+  font-family: 'Jura', sans-serif;
+}
+h1{
+  padding-left: 10px;
+  background-color: #AAF;
+  border-bottom: 1px solid #AAA;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+article{
+  border: 1px solid #AAA;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+header{
+  font-size: 1.5em;
+  margin: 5px 0 10px;
+  border-bottom: 1px solid #AAA;
+  color: #777;
+}
+.line:hover{
+  background-color: #DDD;
+  cursor: pointer;
+}
